@@ -1,2 +1,6 @@
 Archivo2.
-Modificación en la rama principal.
+<<<<<<< HEAD
+Modificación combinada de ambas ramas.
+=======
+Modificación combinada de ambas ramas.
+>>>>>>> ramaPrueba
