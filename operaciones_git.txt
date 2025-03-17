@@ -1,0 +1,74 @@
+  108  git config --global user.name almoll
+  109  git config --global user.email alvaro.molla.delrio@gmail.com
+  110  git config --global --list
+  111  git init ejercicio2mantenimiento_software
+  118  git remote add origin https://github.com/almoll/actividad2mantenimiento_software
+  120  git status
+  122  git add archivo.txt
+  123  git commit -m "commit1"
+  124  git push origin main
+  125  git push -u origin main
+  126  git branch
+  127  git push -u origin master
+  128  git remote -v
+  129  git remote add origin https://github.com/almoll/ejercicio2mantenimiento_software
+  130  git remote -v
+  131  git push -u origin master
+  132  git clone https://github.com/almoll/actividad2MantenimientoSoftware
+  134  git status
+  136  git add archivo.txt
+  137  git commit -m "Ventas"
+  138  git push origin main
+  142  git add.
+  143  git add .
+  144  git push origin master
+  145  git push origin main
+
+  148  git push origin main
+  150  git status
+  151  git diff archivo.txt
+  152  git add archivo.txt
+  153  git commit -m "archivoModificado"
+  154  git push origin main
+  155  git log --oneline --graph --decorate --all
+  156  git diff HEAD~1 archivo.txt
+  157  git blame archivo.txt
+  158  git commit --amend -m "commitcambiado"
+  159  git push --force origin main
+  160  git log --oneline --decorate --graph --all
+  161  git log -p -3
+  163  git status
+  164  git diff archivo.txt
+  165  git checkout -- archivo.txt
+  166  git restore archivo.txt  # Alternativa en versiones recientes de Git
+  167  git restore archivo.txt  
+  168  git status
+  184  git add archivo2.txt
+  185  git commit -m "Archivo2"
+  186  git branch ramaPrueba
+  187  git checkout ramaPrueba
+  188  git branch
+  189  git branch -r
+  191  git switch ramaPrueba
+  192  git add nuevo_archivo.txt
+  193  git add archivo2.txt
+  194  git commit -m "ramaPrueba"
+  195  git checkout main
+  197  git add .
+  198  git commit -m "Modifica rchivo2.txt en main"
+  199  git merge ramaPrueba
+  202  git add archivo2.txt
+  203  git commit -m "Resolver conflicto y fusionar nueva_rama en main"
+  204  git log --oneline --graph --decorate --all
+  205  git push
+  206  git checkout -b rama3
+  207  git switch -c rama3
+  208  git switch rama3
+  210  git add archivo3.txt
+  211  git commit -m "Añadir nuevo archivo en rama3"
+  212  git push --set-upstream origin rama3
+  213  git checkout main
+  214  git pull origin main
+  216  git log --oneline --graph --decorate --all
+  217  git pull origin main
+  219  history | grep git > operaciones_git.txt
