@@ -1,1 +1,2 @@
 Archivo2.
+Cambio de rama.
