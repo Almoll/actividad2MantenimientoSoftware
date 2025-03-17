@@ -1,1 +1,2 @@
 Archivo2.
+Modificación en la rama principal.
