@@ -1,0 +1,13 @@
+com/fotocasa/service/AdService.class
+com/fotocasa/model/Property.class
+com/fotocasa/repository/AdRepository.class
+com/fotocasa/model/ContactMessage.class
+com/fotocasa/repository/ContactRepository.class
+com/fotocasa/repository/PropertyRepository.class
+com/fotocasa/service/ContactService.class
+com/fotocasa/service/ImageService.class
+com/fotocasa/service/UserService.class
+com/fotocasa/service/PropertyService.class
+com/fotocasa/model/User.class
+com/fotocasa/model/Ad.class
+com/fotocasa/repository/UserRepository.class
